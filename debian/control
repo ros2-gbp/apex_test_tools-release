@@ -1,0 +1,12 @@
+Source: ros-dashing-apex-test-tools
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ament-cmake-auto, ros-dashing-ament-cmake-gtest, ros-dashing-ament-cmake-pclint, ros-dashing-ament-lint-auto, ros-dashing-ament-lint-common, ros-dashing-osrf-testing-tools-cpp, ros-dashing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-dashing-apex-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-ament-cmake-gtest, ros-dashing-osrf-testing-tools-cpp, ros-dashing-ros-workspace
+Description: The package Apex.OS Test Tools contains test helpers
