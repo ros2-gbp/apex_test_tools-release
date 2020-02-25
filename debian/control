@@ -1,0 +1,12 @@
+Source: ros-dashing-test-apex-test-tools
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-apex-test-tools, ros-dashing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-dashing-test-apex-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-ros-workspace
+Description: Test package, which uses things exported by apex_test_tools
