@@ -1,3 +1,28 @@
+## apex_test_tools (foxy) - 0.0.1-1
+
+The packages in the `apex_test_tools` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --ros-distro foxy --track foxy apex_test_tools` on `Fri, 28 Aug 2020 14:57:45 -0000`
+
+These packages were released:
+- `apex_test_tools`
+- `test_apex_test_tools`
+
+Version of package(s) in repository `apex_test_tools`:
+
+- upstream repository: https://gitlab.com/ApexAI/apex_test_tools.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.8`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## apex_test_tools (eloquent) - 0.0.1-1
 
 The packages in the `apex_test_tools` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --rosdistro eloquent --track eloquent apex_test_tools --edit` on `Wed, 26 Feb 2020 11:33:56 -0000`
