@@ -1,0 +1,12 @@
+Source: ros-rolling-apex-test-tools
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-gtest, ros-rolling-ament-cmake-pclint, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-osrf-testing-tools-cpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-apex-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ament-cmake-gtest, ros-rolling-osrf-testing-tools-cpp, ros-rolling-ros-workspace
+Description: The package Apex.OS Test Tools contains test helpers
