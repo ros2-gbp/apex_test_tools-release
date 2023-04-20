@@ -1,0 +1,12 @@
+Source: ros-iron-test-apex-test-tools
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-auto, ros-iron-ament-lint-auto <!nocheck>, ros-iron-apex-test-tools <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-test-apex-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: Test package, which uses things exported by apex_test_tools
