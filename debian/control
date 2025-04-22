@@ -1,0 +1,12 @@
+Source: ros-kilted-apex-test-tools
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-gtest, ros-kilted-ament-cmake-pclint <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-osrf-testing-tools-cpp, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-apex-test-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-cmake-gtest, ros-kilted-osrf-testing-tools-cpp, ros-kilted-ros-workspace
+Description: The package Apex.OS Test Tools contains test helpers
